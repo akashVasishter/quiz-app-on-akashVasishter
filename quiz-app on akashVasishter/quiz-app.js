@@ -61,3 +61,4 @@ for(var i=0;i<question.length;i++)
   play(currentQuestion.question,currentQuestion.answer)
 }
 console.log(chalk.bold.greenBright.underline("yay your score is ",score));
+console.log(chalk.greenBright.inverse("Thankyou for playing!"));
